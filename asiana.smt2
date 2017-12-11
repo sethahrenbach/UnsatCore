@@ -24,9 +24,9 @@
 
 ;; actual instrument readings
 (assert (!(= autothrottle false) :named at-status))
-(assert (!(< right-alt 10000) :named ralt))
-(assert (!(< middle-alt 10000) :named malt))
-(assert (!(< left-alt 10000) :named lalt))
+(assert (!(= right-alt 5000) :named ralt))
+(assert (!(= middle-alt 5000) :named malt))
+(assert (!(= left-alt 5000) :named lalt))
 
 (assert (!(= left-airspeed 135) :named lair))
 (assert (!(= right-airspeed 135) :named rair))
